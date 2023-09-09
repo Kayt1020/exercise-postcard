@@ -1,17 +1,32 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
-	background: black;
+	background: black; 
 }
-.postcard {
+.postcard{
 	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
 }
-p {
-	color: blue;
+.postcard-header{
+	display: flex;
 }
+ .postcard-header h1{ 
+	width: 100%;
+    margin: 10px;
+
+.postcard-header img{ 
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.postcard-body{ 
+	display: flex; 
+}
+.body-left{ 
+	margibn-left: 10px;
+}
+.body-right{ 
+	maargin-right: 15px;
+}
+.postcard-footer{ }
+
