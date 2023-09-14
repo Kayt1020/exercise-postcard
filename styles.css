@@ -1,32 +1,45 @@
 body {
-	background: black; 
+	background: black;
 }
-.postcard{
+.postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
 }
-.postcard-header{
+.postcard-header {
 	display: flex;
 }
- .postcard-header h1{ 
+.postcard-header h1 {
 	width: 100%;
-    margin: 10px;
+	margin: 10px;
+}
 
-.postcard-header img{ 
+.postcard-header img {
 	width: 50px;
 	height: 50px;
 	margin: 10px;
 }
-.postcard-body{ 
-	display: flex; 
+.postcard-body {
+	display: flex;
 }
-.body-left{ 
-	margibn-left: 10px;
+.body-left {
+	margin-left: 10px;
 }
-.body-right{ 
-	maargin-right: 15px;
+.body-right {
+	margin-right: 15px;
+	margin-top: 25px;
+	padding-left: 15px;
 }
-.postcard-footer{ }
-
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(183, 183, 226);
+	padding: 2px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-size: 10pt;
+}
