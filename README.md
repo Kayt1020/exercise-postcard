@@ -1,5 +1,5 @@
 <!-- hide -->
-# The Postcard mine
+# The Postcard mine  [THIS IS A POSTCARD](https://kayt1020.github.io/exercise-postcard/)
 <!-- endhide -->
 
 Who does not like postcards? This is one of your first exercises (if not the first), and it's fun and relatively easy :)
